@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page title</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div class="main" id="main">
+            <div class="flex-row">
+
+                <div class="flex-col-right">
+                    <div>
+                        <img id="voldy" onclick="yuoded()" src ="./img/voldy2.jpeg" alt="Voldy"/>
+                    </div>
+                    <div>
+                        <button id="bt" class="add-button" onclick="changePhoto()">Follow</button>
+                    </div>
+                </div>
+
+                <div class = "flex-col-left">
+                    <div id="title"><h2>Voldy</h2></div>
+                    <div id="title"><h3>Dark Lord</h3></div>
+                    <div id="text"><p>Hello, my name is Tom Marvolo but you can call me Voldy.
+                        I have a big magic stick and I probably killed your grandparents with it.</p></div>
+                    <div class="flex-row">
+                        <div class="info">
+                            <strong>15</strong>
+                            <span class="detail">Posts</span>
+                        </div>
+                        <div class="info">
+                            <strong id="followers"></strong>
+                            <span class="detail">Followers</span>
+                        </div>
+                        <div class="info">
+                            <strong>0</strong>
+                            <span class="detail">Following</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="dead"></div>
+        <script src="js/script.js"></script> 
+    </body>
+
+</html>

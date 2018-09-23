@@ -1,0 +1,106 @@
+html *{
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+
+.flutter-div {
+    margin:0 auto;
+    position: relative;
+}
+
+.button-div {
+    margin-top: -40px;
+    margin-left:250px;
+    position: absolute;
+}
+
+h2 {
+    font-style: bold;
+    color:#000066;
+}
+
+h3 {
+    color:#000066;
+}
+
+.add-button {
+    border:1px solid darkblue;
+    -moz-box-shadow: 0px 0px 0px 2px black;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    display: inline-block;
+	cursor: pointer;
+    color: #000066;
+    font-family: 'Noto Serif KR', sans-serif;
+}
+
+body {
+    background-image: linear-gradient( to bottom right, #000066, black);
+}
+
+.main {
+    background-color: white;
+    height: 230px;
+    width: 600px;
+    margin:0 auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    border-radius: 2%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.flex-col-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.flex-col-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 130px;
+    color:#000066;
+}
+
+#voldy {
+    cursor: url("wand3.png"), pointer;
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+    border: 1px solid #ffb3d9;
+}
+
+#title {
+    height: 40px;
+}
+
+#text {
+    height: 115px;
+    font-size: 15px;
+    color: grey;
+}
+
+#dead {
+    height: 1000px;
+    font-size: 150px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+}
